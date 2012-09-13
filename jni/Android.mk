@@ -17,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_ARM_MODE := thumb
-LOCAL_ARM_NEON := false
+LOCAL_ARM_NEON := true
 TARGET_ARCH_ABI := armeabi-v7a
 LOCAL_MODULE    := ndk_practice
 LOCAL_SRC_FILES := ndk_practice.c
